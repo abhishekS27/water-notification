@@ -1,0 +1,21 @@
+{
+  "name": "Drink Water Notification",
+  "description": "It help to Reminding user to drink water",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Drink Water",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "logo.png"
+  }
+}

@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+#logo {
+  width: 80px;
+  margin: 5px;
+}
+
+button {
+  margin: 4px;
+  outline: none;
+}
